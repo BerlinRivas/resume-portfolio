@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/2048px-Anonymous_emblem.svg.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Contact Page</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 id="logo">B.I.R collection</h1>
+        <p><a class="link" href="contact.html">Contact</a></p>
+        <p><a class="link" href="project.html">Projects</a></p>
+    </header>
+    
+    <div class="contact-questions-box">
+        <h1>Questions?</h1>
+        <h2>Contact Me!</h2>
+        <h3>--If you have any questions, concerns, or feedback of anykind, please fill out the form, and I will reach out shortly--</h3>
+    </div>
+
+    <div class="container">
+        <form action="mailto:berlinrivas58@gmail.com" method="post" enctype="text/plain">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      
+          <label for="phone-number">Phone Number</label>
+          <input type="text" id="number" name="number" placeholder="Your Phone Number.." required>
+          
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Send">
+      
+        </form>
+      </div>
+
+    
+</body>
+</html>
